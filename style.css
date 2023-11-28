@@ -12,14 +12,14 @@ header, main {
 /*-----wrapper for loader--------*/
 #loader {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     width: 80px;
     margin: 100px auto;
 }
 /*-----------group of 2 dots------------*/
 .duo {
-    height: 20px;
+    height: 30px;
     width: 75px;
     background: transparent;
     position: absolute;
@@ -60,7 +60,7 @@ header, main {
 }
 /*-----------applyiing animation to 2nd group of dots in reverse----------------*/
 .duo2 {
-    left: 50px;
+    left: 45px;
     animation-name: spin;
     animation-direction: reverse;
 }
